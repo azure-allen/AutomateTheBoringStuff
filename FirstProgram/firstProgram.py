@@ -4,7 +4,11 @@ print ("Hello World!")
 print ("What is your name?")
 name = input()
 print ("It is good to meet you " + name)
-print ("The lenght of your name is :" + len(name))
+print ("The length of your name is" ) 
+print (len(name))
 print ("What is your age?")
 age = input()
-print ("You will be " + (age +1) + " in one year")
+print ("You will be " + str(int(age) +1) + Allen" in one year")
+
+
+
